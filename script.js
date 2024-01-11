@@ -28,7 +28,10 @@ function setIndicator(color) {
     indicator.style.backgroundColor = color;
 }
 
-function getRandomInteger(min , max){
-    Math.floor(Math.random() * (max -min)) + min;
+function getRndInteger(min , max){
+    Math.floor(Math.random() * (max - min)) + min;
 }
   
+function generateRandomNumber(){
+    return getRndInteger(0,9);
+}
