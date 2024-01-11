@@ -15,5 +15,20 @@ const allCheckBox = document.querySelectorAll("input[type=checkbox]");
 let password = "";
  let passwordLength = 10;
  let checkCount = 1;
- 
+
+
+// Function For Handling Slider 
+function handelSlider() {
+    inputSlider.value = passwordLength;
+    lenghthDisplay.innerHTML = passwordLength;
+}
+
+// Function For Setting Indicator 
+function setIndicator(color) {
+    indicator.style.backgroundColor = color;
+}
+
+function getRandomInteger(min , max){
+    Math.floor(Math.random() * (max -min)) + min;
+}
   
