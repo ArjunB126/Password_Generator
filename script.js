@@ -35,3 +35,17 @@ function getRndInteger(min , max){
 function generateRandomNumber(){
     return getRndInteger(0,9);
 }
+
+function generateLowerCase() {
+    String.fromCharCode(getRndInteger(97,123)) // 97 - lower case A ke ascii value and 123 - Lower case z ke ascii value 
+}
+  
+
+function generateUpperCase() {
+    String.fromCharCode(getRndInteger(65,91)) // 65 - Upper case A ke ascii value and 91 - Upper  case z ke ascii value 
+}
+
+function generateSymbol() {
+    const randNum = getRndIntegerO(0, symbols.legth);
+    return symbols.charAt(randNum);
+}
