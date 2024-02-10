@@ -1,3 +1,4 @@
+// Accessing HTML Elements
 const inputSlider = document.querySelector("[data-lengthslider]");
 const lenghthDisplay = document.querySelector("[data-lengthNumber]");
 
